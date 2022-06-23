@@ -297,9 +297,12 @@ body{
 	font-size: 12px;
 	font-weight: 500;
 }
-.prnm{
-	font-size: 15px;
-	margin-bottom: 5px;
+.prnm {
+    text-align: center;
+    color: #434344;
+    max-width: 190px;
+    height: 35px;
+    font-size: 13px;
 }
 .pbd{
 	width: 100%;
