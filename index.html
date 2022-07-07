@@ -7,6 +7,8 @@
     <link rel="icon" type="image/x-image" href="images/logo2.png" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
     <title>CLIKABY</title>
 </head>
 <body>
@@ -77,117 +79,27 @@
 
 <section id="superOffers">
 
-	<h1 class="wdhn txalcn">Super offers</h1>
+	<h1 class="wdhn txalcn" style="font-size: 34px;">Super offers</h1>
 
 
 
- <div class="box">
-    <div class="imgBox"><img src="images/1.jpg">
-    <div class="imgCont">
-     <img src="images/1a.jpg">
-      </div>
-       </div>
-          <div class="priceBox">
-             <div class="prnm">Sylish men shirt</div>
-                <div class="pbd">
-                 <div class="tg">#HM01</div>
-               <div class="dcnt r">10% off</div>
-              <div class="rp l">750</div>
-             <div class="adp">Rs: 500/-</div>
-           </div>
-         <div class="bn">
-      <div class="rtng">4.3 <i class="fa fa-star"></i></div>
-   <button id="bn" onclick="ordrnw()">Buy now</button></div>
- </div>
-</div>
-
-
-
-<div class="box">
-    <div class="imgBox"><img src="images/1.jpg">
-    <div class="imgCont">
-     <img src="images/1a.jpg">
-      </div>
-       </div>
-          <div class="priceBox">
-             <div class="prnm">Sylish men shirt</div>
-                <div class="pbd">
-                 <div class="tg">#HM01</div>
-               <div class="dcnt r">10% off</div>
-              <div class="rp l">750</div>
-             <div class="adp">Rs: 500/-</div>
-           </div>
-         <div class="bn">
-      <div class="rtng">4.3 <i class="fa fa-star"></i></div>
-   <button id="bn" onclick="ordrnw()">Buy now</button></div>
- </div>
-</div>
-
-
-
-<div class="box">
-    <div class="imgBox"><img src="images/1.jpg">
-    <div class="imgCont">
-     <img src="images/1a.jpg">
-      </div>
-       </div>
-          <div class="priceBox">
-             <div class="prnm">Sylish men shirt</div>
-                <div class="pbd">
-                 <div class="tg">#HM01</div>
-               <div class="dcnt r">10% off</div>
-              <div class="rp l">750</div>
-             <div class="adp">Rs: 500/-</div>
-           </div>
-         <div class="bn">
-      <div class="rtng">4.3 <i class="fa fa-star"></i></div>
-   <button id="bn" onclick="ordrnw()">Buy now</button></div>
- </div>
-</div>
-
-
-
-<div class="box">
-    <div class="imgBox"><img src="images/1.jpg">
-    <div class="imgCont">
-     <img src="images/1a.jpg">
-      </div>
-       </div>
-          <div class="priceBox">
-             <div class="prnm">Sylish men shirt</div>
-                <div class="pbd">
-                 <div class="tg">#HM01</div>
-               <div class="dcnt r">10% off</div>
-              <div class="rp l">750</div>
-             <div class="adp">Rs: 500/-</div>
-           </div>
-         <div class="bn">
-      <div class="rtng">4.3 <i class="fa fa-star"></i></div>
-   <button id="bn" onclick="ordrnw()">Buy now</button></div>
- </div>
-</div>
-
-
-
-<div class="box">
-    <div class="imgBox"><img src="images/1.jpg">
-    <div class="imgCont">
-     <img src="images/1a.jpg">
-      </div>
-       </div>
-          <div class="priceBox">
-             <div class="prnm">Sylish men shirt</div>
-                <div class="pbd">
-                 <div class="tg">#HM01</div>
-               <div class="dcnt r">10% off</div>
-              <div class="rp l">750</div>
-             <div class="adp">Rs: 500/-</div>
-           </div>
-         <div class="bn">
-      <div class="rtng">4.3 <i class="fa fa-star"></i></div>
-   <button id="bn" onclick="ordrnw()">Buy now</button></div>
- </div>
-</div>
+  <div class="carousel" data-flickity='{"autoPlay": true, "imagesLoaded":true }'>
+    <div class="carousel-cell">
+      <img src="images/slide_offers/a1.jpg" alt="">
+    </div>
+    <div class="carousel-cell">
+     <img src="images/slide_offers/b.jpg" alt="">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/slide_offers/c.jpg" alt="">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/slide_offers/d.jpg" alt="">
+    </div>
+    <div class="carousel-cell">
+      <img src="images/slide_offers/e.jpg" alt="">
+    </div>
+  </div>
 
 	
 
@@ -297,7 +209,9 @@
     </div>  
 </section>
 
-
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="javaScript/index.js"></script>
+ 
 </body>
 </html>
