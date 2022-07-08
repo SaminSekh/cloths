@@ -541,7 +541,7 @@ body{
     	height: 300px;
     }
 	.carousel-cell{
-		height: 20vh;
+		height: 15vh;
 	}
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 480px){
@@ -574,7 +574,7 @@ body{
     	height: 300px;
     }
 	.carousel-cell{
-		height: 25vh;
+		height: 20vh;
 	}
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 602px){
@@ -606,7 +606,7 @@ body{
     	height: 300px;
     }
 	.carousel-cell{
-		height: 30vh;
+		height: 25vh;
 	}
 }	
 @media screen and (min-device-width: 603px) and (max-device-width: 768px){
@@ -636,7 +636,7 @@ body{
 		padding: 10px 10px;
 	}
 	.carousel-cell{
-		height: 35vh;
+		height: 30vh;
 	}
 }
 @media screen and (min-device-width: 769px) and (max-device-width: 930px){
@@ -650,6 +650,6 @@ body{
 		padding: 0px 5px;
 	}
 	.carousel-cell{
-		height: 40vh;
+		height: 35vh;
 	}
 }
