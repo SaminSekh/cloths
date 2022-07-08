@@ -542,7 +542,7 @@ body{
     	height: 300px;
     }
 	.carousel-cell{
-		height: 100PX;
+		height: 120PX;
 	}
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 480px){
@@ -575,7 +575,7 @@ body{
     	height: 300px;
     }
 	.carousel-cell{
-		height: 130PX;
+		height: 150PX;
 	}
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 602px){
@@ -607,7 +607,7 @@ body{
     	height: 300px;
     }
 	.carousel-cell{
-		height: 150PX;
+		height: 170PX;
 	}
 }	
 @media screen and (min-device-width: 603px) and (max-device-width: 768px){
